@@ -1,0 +1,13 @@
+# Ambiente Virtual
+venv/
+.venv/
+
+# Dados e Arquivos CSV
+*.csv
+
+# Cache do Python e Jupyter
+_pycache_/
+.ipynb_checkpoints/
+
+# Configurações locais do VS Code
+.vscode/
