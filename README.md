@@ -46,7 +46,7 @@ Para evitar o *data leakage* (vazamento de dados) e garantir generalização em 
 1. **Feature Importance:** As variáveis mais determinantes para a pontuação de risco foram o **tempo de relacionamento**, **CEP (região)** e **prazo de pagamento**, evidenciando que o histórico comportamental supera dados cadastrais estáticos.
 2. **Distribuição Preditiva:** O modelo isolou com alta precisão o grupo adimplente próximo a $0\%$ de probabilidade de risco, permitindo automação de crédito rápido para a maioria dos clientes.
 3. **Matriz de Confusão (Cutoff = 0.30):** 
-   - Captura de **~59% dos inadimplentes** na safra OOT.
+   - Captura de **59% dos inadimplentes** na safra OOT.
    - Geração de apenas **1.5% de falsos alarmes** na base de bons pagadores, preservando a experiência do cliente adimplente.
 
 ## 🛠️ Como Reproduzir este Projeto
